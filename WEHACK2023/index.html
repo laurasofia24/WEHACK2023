@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>EasyPeasyProg Games</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <style>
+       
+         
+        .navbar-custom {
+            background-color: #B5D3EA;
+            font-family: "Lucida Console", "Courier New", monospace;
+        }
+        
+         
+        .navbar-custom .navbar-brand,
+        .navbar-custom .navbar-text {
+            color: black;
+            font-family: "Lucida Console", "Courier New", monospace;
+        }
+
+
+        .panel-heading 
+        {
+            text-align: center;
+            font-family: "Lucida Console", "Courier New", monospace;
+            font-size: 20px;
+        }
+
+        .panel-body
+        {
+            background-image: url("skyback.jpg");
+            text-align: center;
+            font-family: "Lucida Console", "Courier New", monospace;
+            font-size: 15px;
+            padding-bottom: 70px;
+            padding-top: 35px;
+            padding-left: 50px;
+            padding-right: 50px;
+            
+        }
+
+        .leaderboard
+        {
+            text-align: left;
+        }
+
+        
+    </style>
+    
+</head>
+<body>
+    
+    <nav class="navbar navbar-custom">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">EasyPeasyProg</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">HOME</a></li>
+            <li class="active"><a href="#">MOST POPULAR GAMES</a></li>
+            <li><a href="#">MR. CURSOR</a></li>
+            <li><a href="#">EASYPEASYPIXEL ART STUDIO</a></li>
+          </ul>
+
+          <form class="navbar-form navbar-left" action="/action_page.php">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="SEARCH GAMEBASE">
+            </div>
+            <button type="submit" class="btn btn-default">SEARCH</button>
+          </form>
+
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#"><span class="glyphicon glyphicon-user"></span> CREATE FREE ACCOUNT</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> LOG INTO EXISTING ACCOUNT</a></li>
+          </ul>
+
+        </div>
+      </nav>
+
+      
+      <div class="panel-group">
+        <div class="panel panel-info">
+            <div class="panel-heading">WEB DESIGN MINI-GAME: PROMPT WINDOW</div>
+                <div class="panel-body">
+                    <img src="codingjpg.jpg" class="img-circle" width=200px; height=200px;>
+                    <p><h3>Sharpen your HTML and CSS skills by entering a line of code below that will make any desired change to this panel.</h3></p><p>For example, you may enter "background-color: red" to change the body's background color
+                        to red.</p>
+                    <div class="form-group">
+                            <input type="text" class="form-control" id="usr" placeholder="ENTER A LINE OF CODE HERE">
+                    </div>
+                    
+                    <p><i>Note: Errors in the code will likely <b>not</b> cause this panel to change. Keep thinking of different approaches!</i></p>
+                    <button type="submit" class="btn btn-default">SUBMIT MY CODE</button>
+                    <button type="submit" class="btn btn-default">DEBUG MY CODE</button>
+                </div>
+        </div>
+      </div>
+      
+      <div class="panel-group">
+        <div class="panel panel-info">
+            <div class="panel-heading">GAME-OF-THE-MONTH: MR. CURSOR</div>
+                <div class="panel-body">
+                    <marquee><img src="mrcursor.PNG" width=400px; height=500px;></marquee>
+                    <p><h2><b>BREAKING NEWS: Mr. Cursor became the most-played game on EasyPeasyProg within one month of its release!</b></h2></p>
+                    <p>Mr. Cursor is a game that tests your error-detection skills. Error-detection is an important skill to have in general, but especially when addressing flaws in your code, also known as debugging.
+                        The game gives you a block of code, and you select which line in that block has flawed code. Meanwhile, Mr. Cursor navigates to the "Run" button. Ideally, your program would be error-free before you run it. 
+                        Therefore, the objective is to detect all of the errors before he reaches the "Run" button.  The questions present different kinds of syntax errors so that they can be easily avoided
+                        when you begin coding larger-scale projects independently. This game keeps you on your feet and has many real-life applications! It is one of the most highly-rated games on this platform (rightfully so).
+                    </p>
+                    <button class="btn btn-default">PLAY MR. CURSOR</button>
+                    <button class="btn btn-default">READ REVIEWS FOR MR. CURSOR</button>
+                    
+
+                    <div class="leaderboard">
+                        <p><h2><b>LEADERBOARD</b></h2></p>            
+                        <table class="table table-striped">
+                          <thead>
+                            <tr>
+                              <th>PLACE</th>
+                              <th>USER</th>
+                              <th>POINTS EARNED</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>First</td>
+                              <td>babysharkdoo212</td>
+                              <td>50,000,000</td>
+                            </tr>
+                            <tr>
+                              <td>Second</td>
+                              <td>wehackparticipant3</td>
+                              <td>25,450,080</td>
+                            </tr>
+                            <tr>
+                              <td>Third</td>
+                              <td>cursormaster2000</td>
+                              <td>3,000,970</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                </div>
+        </div>
+      </div>
+      
+      
+        
+      
+
+    
+</body>
+</html>
